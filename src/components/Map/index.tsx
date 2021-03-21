@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 
 type Place = {
   id: string
@@ -24,11 +24,17 @@ const Map = ({ places }: MapProps) => (
       attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
     />
-    <Marker position={[0, 0]} title="Petrópolis">
-      <Popup>
-        A pretty CSS3 popup. <br /> Easily customizable.
-      </Popup>
-    </Marker>
+
+    {places?.map(({ id, name, location }) => {
+      const { latitude, longitude } = location
+      return (
+        <Marker
+          key={`place-${id}`}
+          position={[latitude, longitude]}
+          title={name}
+        />
+      )
+    })}
   </MapContainer>
 )
 
