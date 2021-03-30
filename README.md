@@ -7,6 +7,9 @@
   <img alt="Image of a robot behind a notebook." src="https://raw.githubusercontent.com/MessiasJunio/future-trips/main/public/img/cover.png">
 </p>
 
+## About
+A simple map-based website that shows description and pictures of the 10 best places to travel, according to the site usnews
+- https://travel.usnews.com/rankings/worlds-best-vacations/
 ## See Demo On Versel
 - [Future Trips](https://future-trips.vercel.app/)
 
