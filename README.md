@@ -1,4 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    <img alt="Image of an atom and React Boilerplate written beside." src="https://raw.githubusercontent.com/MessiasJunio/future-trips/main/public/img/logo-github.png" />
+    <br>
+</h1>
+
+<p align="center">
+  <img alt="Image of a robot behind a notebook." src="https://raw.githubusercontent.com/MessiasJunio/future-trips/main/public/img/cover.png">
+</p>
+
+## See Demo On Versel
+- [Future Trips](https://future-trips.vercel.app/)
+
+## What is inside?
+
+This project uses lot of stuff as:
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [NextJS](https://nextjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
+- [LeaftletJS](https://leafletjs.com/)
+- [React Leaflet](https://react-leaflet.js.org/)
 
 ## Getting Started
 
@@ -6,7 +31,9 @@ First, run the development server:
 
 ```bash
 npm run dev
+
 # or
+
 yarn dev
 ```
 
@@ -14,9 +41,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Commands
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- `dev`: runs your application on `localhost:3000`
+- `build`: creates the production build version
+- `start`: starts a simple server with the build production code
+- `lint`: runs the linter in all components and pages
+- `test`: runs jest to test all components and pages
+- `test:watch`: runs jest in watch mode
 
 ## Learn More
 
@@ -29,6 +61,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
